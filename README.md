@@ -20,9 +20,9 @@ Model je treniran na AEP (American Electric Power) datasetu koji je dostupan na 
 1. Putem Dockera (Preporučeno)
 Docker osigurava da aplikacija radi u izoliranom okruženju sa svim potrebnim zavisnostima. 
 
--Izgradnja imagea: 
+- Izgradnja imagea: 
     `docker build -t energy-app .`
--Pokretanje kontejnera: 
+- Pokretanje kontejnera: 
     `docker run -p 8501:8501 energy-app`
 
 Nakon pokretanja, aplikacija je dostupna na: http://localhost:8501
